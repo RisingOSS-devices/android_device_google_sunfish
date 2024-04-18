@@ -47,6 +47,7 @@
 /vendor/bin/hw/android\.hardware\.contexthub-service\.generic                         u:object_r:hal_contexthub_default_exec:s0
 /vendor/bin/hw/android\.hardware\.contexthub@1\.[0-9]-service\.generic                u:object_r:hal_contexthub_default_exec:s0
 /vendor/bin/hw/android\.hardware\.usb@1\.[0-9]-service\.sunfish                       u:object_r:hal_usb_impl_exec:s0
+/vendor/bin/init\.fingerprint\.sh                                                     u:object_r:init_fingerprint_exec:s0
 
 # Vendor firmware
 /vendor/firmware_mnt(/.*)?                                                            u:object_r:firmware_file:s0

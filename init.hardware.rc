@@ -720,6 +720,15 @@ service bugreport /system/bin/dumpstate -d -p -z
 on property:ro.boot.hardware.dsds=1
     setprop persist.radio.multisim.config dsds
 
+# Init-fingerprint
+service fpcpermission /vendor/bin/init.fingerprint.sh
+    user root
+    group root
+    disabled
+
+on property:sys.boot_completed=1
+    start fpcpermission
+
 # DSDS feature
 # Restart 1st qcrild after SIM config changed
 on property:vendor.radio.sim_num.switch=1to2 && property:persist.radio.multisim.config=dsds
