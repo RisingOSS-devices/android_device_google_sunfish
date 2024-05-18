@@ -29,6 +29,7 @@ RISING_RAM := 6gb
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=sunfish \
+    RISING_MAINTAINER="xioyo" \
     PRIVATE_BUILD_DESC="sunfish-user 13 TQ3A.230805.001.S1 10786265 release-keys"
 
 BUILD_FINGERPRINT := google/sunfish/sunfish:13/TQ3A.230805.001.S1/10786265:user/release-keys
