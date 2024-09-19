@@ -1,0 +1,20 @@
+[
+	{
+		"remote"		:	"github",
+		"repository"		:	"RisingOSS-devices/android_vendor_google_sunfish",
+		"branch"		:	"fourteen",
+		"target_path"		:	"vendor/google/sunfish"
+	},
+	{
+                "remote"                :       "github",
+                "repository"            :       "LineageOS/android_kernel_google_msm-4.14",
+                "branch"                :       "lineage-21",
+                "target_path"           :       "kernel/google/msm-4.14"
+        },
+	{
+                "remote"                :       "github",
+                "repository"            :       "LineageOS/android_device_google_gs-common",
+                "branch"                :       "lineage-21",
+                "target_path"           :       "device/google/gs-common"
+        }
+]
